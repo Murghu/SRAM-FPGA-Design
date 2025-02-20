@@ -1,0 +1,8 @@
+net "clk" loc = "p55";
+net "write_enable" loc = "p80";
+net "address<0>" loc = "p81";
+net "address<1>" loc = "p82";
+net "data_in<0>" loc = "p84";
+net "data_in<1>" loc = "p83";
+net "data_out<0>" loc = "p93";
+net "data_out<1>" loc = "p94";
