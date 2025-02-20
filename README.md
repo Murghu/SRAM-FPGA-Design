@@ -1,4 +1,4 @@
-# SRAM Implementation on FPGA
+# SRAM Design using FPGA
 
 ## Overview
 
