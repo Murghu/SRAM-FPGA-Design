@@ -12,6 +12,11 @@ This project focuses on designing and implementing a **Static Random Access Memo
 - **UCF (User Constraint File) mapping** for FPGA pin allocation.
 - **Efficient synthesis and simulation** using Xilinx ISE.
 
+## FPGA BOARD
+
+  ![FPGA-BOARD](https://github.com/Murghu/SRAM-FPGA-Design/blob/main/FPGA_Board.jpg)
+
+
 ## Implementation Details
 
 ### 1. Initialization
@@ -23,6 +28,13 @@ This project focuses on designing and implementing a **Static Random Access Memo
 - **Write Operation:** Data is stored at a specific address when `write_enable` is HIGH.
 - **Read Operation:** Stored data is retrieved when `write_enable` is LOW.
 - **Memory Updates:** LED outputs display the stored values.
+
+## Output Before Write Operation
+![FPGA-BOARD](https://github.com/Murghu/SRAM-FPGA-Design/blob/main/Output_before_write_Operation_.jpg)
+
+## Output After Write Operation
+![FPGA-BOARD](https://github.com/Murghu/SRAM-FPGA-Design/blob/main/Output_after_write_Operation.jpg)
+
 
 ### 3. FPGA Pin Mapping (UCF Constraints)
 
